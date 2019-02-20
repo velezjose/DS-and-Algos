@@ -1,4 +1,4 @@
-const { DoublyLinkedList } = require('./DoublyLinkedList.js');
+const { DoublyLinkedList } = require('../LinkedList/DoublyLinkedList.js');
 
 class LRUCache {
   // LRUCache needs a hash map, a doubly linked list, and capacity data fields
