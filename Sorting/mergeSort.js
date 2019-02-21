@@ -35,11 +35,13 @@ const merge = (array1, array2) => {
   // contents to the mergedArray.
   if (a1Idx !== array1.length) {
     for (let i = a1Idx; i < array1.length; i += 1) {
-      mergedArray.push(array1[a1Idx]);
+      mergedArray.push(array1[i]);
     }
-  } else if (a2Idx !== array2.length) {
+  }
+
+  if (a2Idx !== array2.length) {
     for (let i = a2Idx; i < array2.length; i += 1) {
-      mergedArray.push(array2[a2Idx]);
+      mergedArray.push(array2[i]);
     }
   }
 
