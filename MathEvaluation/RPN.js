@@ -42,3 +42,7 @@ let evaluate = rpn => {
 
 console.log(`${evaluate([5, 3, 2, '*', '+'])} should be 11.`);
 console.log(`${evaluate([12, 3, '-', 3, '/'])} should be 3.`);
+
+module.exports = {
+  evaluate,
+};
