@@ -58,3 +58,7 @@ RandomizedSet.prototype.getRandom = function() {
   let rand = Math.floor(Math.random() * this._storage.length);
   return this._storage[rand];
 };
+
+module.exports = {
+  RandomizedSet,
+};
