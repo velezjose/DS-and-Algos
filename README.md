@@ -10,5 +10,8 @@ In this repo, you can find the implementations of a wide variety of algorithms a
 5. TowersOfHanoi –> Implement Towers of Hanoi problem for any n number of starting disks
 6. Miscellaneous –> miscellaneous implementations of solutions to toy problems
 7. UnionFind –> Implements a UnionFind algorithm using 4 different algorithm approaches.
+8. Command Line Games –> Tic Tac Toe and Minesweeper
+9. Randomized Set –> ADT: put(val) getRandom(val) remove(val) all in O(1) time
+10. Search –> binary search and a grep implementation using Rabin-Karp
 
 Stay tuned for more!
